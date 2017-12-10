@@ -1,0 +1,23 @@
+{
+  "name": "api-rest-example",
+  "version": "2.0.0",
+  "dependencies": {
+    "asserts": "^4.0.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.1.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^3.6.20"
+  },
+  "description": "Proyecto de Api Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Herick Navarro",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
