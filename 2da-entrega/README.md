@@ -31,6 +31,8 @@
   (la cual corresponde a donde usted guarde sus data base de mongodb) el contenido de "data"(corresponde a la carpeta que esta en el repo)
   
   * 6 Abra su carpeta de mongodb desde la terminal y alli escriba "mongod" (esto para abrir la base de datos y que espere llamadas de node)
+
+   ![imagen mongod](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/monod_console.png)
   
   * 7 Abra la carpeta "node" desde la terminal y alli escriba "npm start" 
   (esto funciona para abrir el node, localhost y activar nuestra api rest) 
@@ -38,6 +40,8 @@
   * 8 Si todo a salido bien en la terminal donde escribieron "npm start" deberan de ver estos mensajes:
   " Conexion establecida a mongo
     Api rest corriendo en localhost:3001 "
+
+   ![imagen api rest](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/monod_console.png)
   
   * 9 Listo ! la api rest esta lista y 100% funcional 
   
