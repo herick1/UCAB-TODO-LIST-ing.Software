@@ -41,7 +41,7 @@
   " Conexion establecida a mongo
     Api rest corriendo en localhost:3001 "
 
-   ![imagen api rest](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/monod_console.png)
+   ![imagen api rest](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/node_npm.png)
   
   * 9 Listo ! la api rest esta lista y 100% funcional 
   
