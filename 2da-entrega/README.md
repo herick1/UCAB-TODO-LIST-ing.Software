@@ -54,8 +54,9 @@
     * PUT /v1/todos/:id/alterar-completado
    
 
-* Apk: * Implementando la parte grafica de la app 
-       * Hecha en unity y consta de 4 pantallas 
+* Apk: 
+       * Implementando la parte grafica de la app 
+       * Hecha en unity y consta de 5 pantallas 
 
  ![imagen pantalla apk](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/pantallas%20apk.png)
 
