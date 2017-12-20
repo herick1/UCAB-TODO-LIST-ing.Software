@@ -55,8 +55,10 @@
    
 
 * Apk: 
-       * Implementando la parte grafica de la app 
-       * Hecha en unity y consta de 5 pantallas 
+  * Implementando la parte grafica de la app 
+  * En el repo esta montada el apk para ser instalada en dispositivos android 
+  * app obtimizada para android 4.x hacia adelante 
+  * Hecha en unity y consta de 6 pantallas 
 
  ![imagen pantalla apk](https://github.com/herick1/UCAB-ing.Software/blob/master/2da-entrega/pantallas%20apk.png)
 
