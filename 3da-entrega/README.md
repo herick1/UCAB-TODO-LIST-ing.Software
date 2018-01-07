@@ -1,6 +1,6 @@
 # UCAB-ing-Software-3da-Entrega
 
- En el repo aparece un archivo(apk) y una carpeta de directorios (docker), el primero es el frontend, y el segundo es el backend con el docker 
+ En el repo aparece un archivo(apk) y una carpeta de directorios (docker), el primero es el frontend, y el segundo es el backend con el docker hecho en ubuntu 16.04 LTS
  
 ## 1 Docker (Api Rest):
   
@@ -29,7 +29,14 @@
    
 
 ## 2 Apk: 
-	
-* La configuracion de la aplicacion con el backend ocurre en la parte de "configuracion" dentro de la api , alli se puede elegir el puerto y la url donde se va a conectar con el servidor
-* NOTA: si no hay comunicacion con el backend entonces la palicacion no servira
+
+* La app sirve para dispositivos con android 4.1 hacia delante (esto es debido a las limitaciones de unity)
+
+* La app fue probada directamente en un dispositivo android instalando el "todolist.apk" directamente en el telefono si no tienes mucho conocimientos en este tema te recomiendo ver este link  [informacion sobre android apk ](https://elandroidelibre.elespanol.com/2016/04/como-instalar-aplicaciones-apk-android.html "informacion sobre android apk ").
+
+* Tambien puedes instalar la app android con un emulador en una pc [informacion sobre sdk](https://www.google.co.ve/search?client=ubuntu&channel=fs&q=android+sdk+y+apk+&ie=utf-8&oe=utf-8&gfe_rd=cr&dcr=0&ei=i2hRWprTJMiw-QW47Z7wAg "informacion sobre sdk").
+
+* La configuracion de la aplicacion con el backend ocurre en la parte de "configuracion" dentro de la app , alli se puede elegir el puerto y la url donde se va a conectar con el servidor
+
+* NOTA: si no hay comunicacion con el backend entonces la aplicación no servira
   
