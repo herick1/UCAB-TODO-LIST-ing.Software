@@ -71,8 +71,8 @@ app.put('/v1/todos/:id',(req,res) => {
     console.log('PUT /v1/todos/:id')
     var completa=req.body.completada;
         console.log(req.body);
-    if(req.body.completada == "false")completa=false;
-    if(req.body.completada == "true") completa=true;
+    if((req.body.completada != false) && (req.body.completada != true))
+	return res.status(500).send({ mensaje:' hubo un error al hacer la peticion' })
     collection.update({_id: new mongodb.ObjectID(req.params.id)},
     { $set: {nombre:req.body.nombre, descripcion:req.body.descripcion, completada:completa}}
     ,function(err, results) {
