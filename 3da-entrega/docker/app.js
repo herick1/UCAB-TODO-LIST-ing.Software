@@ -42,7 +42,7 @@ app.get('/v1/todos',(req,res) => {
 })
 
 app.post('/v1/todos', (req, res) => {
-    var fechaa = f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear() +" "+ f.getHours() + ":" + f.getMinutes() + ":" + f.getSeconds()  ;
+    var fechaa = f.getFullYear() + "-" + (f.getMonth() +1) + "-" +f.getDate()  +" "+ f.getHours() + ":" + f.getMinutes() + ":" + f.getSeconds()  ;
     console.log('POST /v1/todos')
     console.log(req.body)
     collection.insert({nombre:req.body.nombre, descripcion:req.body.descripcion, lista:null, completada:false, fecha:fechaa},
