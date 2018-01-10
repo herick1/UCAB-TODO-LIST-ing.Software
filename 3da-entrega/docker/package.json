@@ -6,17 +6,21 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "method-override": "^2.1.2",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "chai":  "^4.0.2",
+    "chai-http": "^3.0.0",
+    "request": "^2.81.0"
   },
   "description": "Proyecto de Api Rest",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js",
+    "start": "nodemon app.js"
   },
   "author": "Herick Navarro",
   "license": "MIT",
   "devDependencies": {
+    "mocha": "^4.1.0",
     "nodemon": "^1.12.1"
   }
 }

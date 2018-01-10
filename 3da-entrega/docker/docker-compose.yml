@@ -12,4 +12,10 @@ services:
       - ./data/mongodb/db:/data/db
     ports:
       - "27017:27017"
-
+  test:
+      build:
+         context: .
+         dockerfile: Dockerfile.test
+      links:
+        - mongo
+        - web

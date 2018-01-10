@@ -1,4 +1,3 @@
-
 'use strict'
 
 const express = require('express')
@@ -12,7 +11,7 @@ var assert = require('assert');
 var url = "mongodb://mongo:27017/todos";
 var db;
 var collection;
-var f = new Date();
+
 
 app.use(bodyParser.urlencoded({ extended:false }))
 app.use(bodyParser.json())
@@ -42,6 +41,7 @@ app.get('/v1/todos',(req,res) => {
 })
 
 app.post('/v1/todos', (req, res) => {
+    var f = new Date();
     var fechaa = f.getFullYear() + "-" + (f.getMonth() +1) + "-" +f.getDate()  +" "+ f.getHours() + ":" + f.getMinutes() + ":" + f.getSeconds()  ;
     console.log('POST /v1/todos')
     console.log(req.body)

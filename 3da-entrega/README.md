@@ -13,6 +13,9 @@
 	* docker -compose build
 	* docker -compose up
 
+* Al finalizar veras algo parecido a esto
+ ![imagen docker](https://github.com/herick1/UCAB-ing.Software/blob/master/3da-entrega/docker-up.png)
+
 * Listo ! la api rest esta lista y 100% funcional 
 
 * por defecto la url es: http://localhost:3001/v1/todos/

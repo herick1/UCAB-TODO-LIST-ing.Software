@@ -1,0 +1,8 @@
+FROM node:argon
+RUN mkdir /appTest
+WORKDIR /appTest
+COPY package.json /appTest
+RUN npm install
+RUN npm install -g mocha
+COPY . /appTest
+CMD ["npm", "test"]
