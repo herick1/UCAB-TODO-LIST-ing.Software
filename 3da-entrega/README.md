@@ -35,9 +35,9 @@
 
 * La app sirve para dispositivos con android 4.1 hacia delante (esto es debido a las limitaciones de unity)
 
-* La app fue probada directamente en un dispositivo android instalando el "todolist.apk" directamente en el telefono si no tienes mucho conocimientos en este tema te recomiendo ver este link  [informacion sobre android apk ](https://elandroidelibre.elespanol.com/2016/04/como-instalar-aplicaciones-apk-android.html "informacion sobre android apk ").
+* La app fue probada directamente en un dispositivo android instalando el "todolist.apk", si no tienes mucho conocimientos en este tema te recomiendo ver este link  [informacion sobre android apk ](https://elandroidelibre.elespanol.com/2016/04/como-instalar-aplicaciones-apk-android.html "informacion sobre android apk ").
 
-* Tambien puedes instalar la app android con un emulador en una pc [informacion sobre sdk](https://androidstudiofaqs.com/root-rom/como-instalar-apk-en-android-desde-pc "informacion sobre sdk").
+* Tambien puedes instalar la app android con un emulador en una pc [informacion sobre emulador](https://hipertextual.com/2017/03/probar-android-emulador-oficial "informacion sobre emulador").
 
 * La configuracion de la aplicacion con el backend ocurre en la parte de "configuracion" dentro de la app , alli se puede elegir el puerto y la url donde se va a conectar con el servidor
 
